@@ -16,7 +16,7 @@ const format = ref<'toml' | 'bash'>('toml');
 const startDate = ref(anchorDate.value);
 const copySuccess = ref(false);
 
-const LEVEL_COMMITS = [0, 1, 3, 7, 12];
+const LEVEL_COMMITS = [0, 2, 8, 16, 25];
 
 const slugifiedName = computed(() => {
   return name.value
