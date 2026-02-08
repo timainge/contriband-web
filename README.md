@@ -4,7 +4,7 @@
 
 Visual canvas for designing GitHub contribution graph art. Paint pixel templates that can be exported and applied using the [contriband CLI](https://github.com/timainge/contriband-cli).
 
-**Repos**: [contriband-web](https://github.com/timainge/contriband-web) | [contriband-cli](https://github.com/timainge/contriband-cli)
+**Live**: [timainge.github.io/contriband-web](https://timainge.github.io/contriband-web/) | **Repos**: [contriband-web](https://github.com/timainge/contriband-web) | [contriband-cli](https://github.com/timainge/contriband-cli)
 
 ## Features
 
