@@ -79,7 +79,7 @@ const showInstructions = ref(false);
       </ol>
 
       <a
-        href="https://github.com/anthropics/contriband"
+        href="https://github.com/timainge/contriband-web"
         target="_blank"
         class="inline-flex items-center gap-1 mt-4 text-sm text-[var(--color-blue)] hover:underline"
       >
