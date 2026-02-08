@@ -52,7 +52,7 @@ function generateBash(): string {
 
       const date = new Date(start);
       date.setDate(date.getDate() + col * 7 + row);
-      const dateStr = date.toISOString().slice(0, 10);
+      const dateStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 
       lines.push(`# ${dateStr}: level ${level}, ${commits} commits`);
       lines.push(`for i in $(seq 1 ${commits}); do`);
